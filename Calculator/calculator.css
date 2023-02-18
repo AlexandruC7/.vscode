@@ -1,0 +1,42 @@
+body{
+    font-size:  40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+     padding: 0px 600px 100px 600px;
+    border-radius: 10px;
+   background-color:rgb(168, 183, 187)
+}
+
+
+
+
+.butoane{
+    background-color: rgb(219, 160, 10);
+    width: 60px;
+    height: 60px;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+   
+
+
+}
+.butoane:hover{
+    filter: brightness(130%);
+}
+.buton{
+    background: rgb(168, 183, 187)
+}
+#output{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin:50px 0px 0px 0px;
+}
+.unire{
+    display: flex;
+    justify-content: space-between;
+}
+
